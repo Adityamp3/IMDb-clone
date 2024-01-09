@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/abbae87c93.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <title>Book Now!</title>
+</head>
+
+<body>
+    <section id="header">
+
+        <ul id="navii">
+            <li><a href="index.html"><img src="img/Screenshot_20230713-185630_Gallery.jpg" class="logo" alt="IMDb"
+                        width="64px" height="32px"></a></li>
+            <li><a href="#"><i class="fa-solid fa-bars" style="color: #ffffff;"></i>&nbsp;Menu</a></li>
+            <li>
+                <div class="search-all">
+                    <div class="all-dropdown">
+                        <button class="dropbtn">All</button>
+                        <input type="button" class="dropbtn" value="All" style="background-color:#ffffff;">
+                        <div class="dropdown-content">
+                            <a href="#">All</a>
+                            <a href="#">Titles</a>
+                            <a href="#">TV Episodes</a>
+                            <a href="#">Celebs</a>
+                            <a href="#">Companies</a>
+                            <a href="#">Keywords</a>
+                            <a href="#">Advanced Search</a>
+                        </div>
+                    </div>
+                    <div class="search-box" style="background-color: #ffffff;">
+                        <input type="search" placeholder="Search here..." width="700px" style="background-color: #ffffff;"><i class="fa-solid fa-magnifying-glass" style="color: #9c9c9c;margin-left: 450px; background: none;"></i>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#"><img src="img/imdb-pro.jpg" height="15px" width="60px"></a></li>
+            <li><a href="#"><img src="img/icon/bookmark_plus_icon.png" height="22px" width="25%">&nbsp;Wishlist</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">En&nbsp;<i class="fa-solid fa-caret-down fa-2xs" style="color: #ffffff;"></i></a></li>
+        </ul>
+
+    </section>
+
+
+    <div class="slideshow-container">
+        <div class="slide">
+            <img src="img/banner1.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="img/banner3.jpg" alt="Slide 2">
+        </div>
+        <div class="slide">
+            <img src="img/banner4.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+            <img src="img/banner5.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+            <img src="img/banner6.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+            <img src="img/banner7.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+            <img src="img/banner8.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+            <img src="img/banner9.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+            <img src="img/banner10.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+            <img src="img/banner11.jpg" alt="Slide 3">
+        </div>
+
+
+        <div class="card-grp"
+            style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+            <span style="color: #ebc624; font-size: 22px; background: none; font-weight: 500;">Up next</span><br><br>
+            <div class="card-container">
+                <div class="card" id="card1">
+                    <img src="img/Up-next-1.jpg" alt="next" style="width:100px">
+                    <div class="container">
+                        <h4>Most Popular Indian Web Series of 2023 (So Far)</h4>
+                        <span style="font-size: 14px;">"Farzi" Tops the List</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Up-next-2.jpg" alt="next" style="width:100px">
+                    <div class="container">
+                        <h4>"One Piece"</h4>
+                        <span style="font-size: 14px;">The Legendary Manga is Coming to Netflix</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Up-next-3.jpg" alt="next" style="width:100px">
+                    <div class="container">
+                        <h4>'A Haunting in Venice'</h4>
+                        <span style="font-size: 14px;">Futuristic Epic 'Kalki 2898-AD' Makes Comic-Con Debut</span>
+                    </div>
+                </div>
+                <h4 style="font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 600;">Browse trailers ></h4>
+            </div>
+        </div>
+    </div>
+
+    <span style="color:#F5C518; font-size: 20px; font-weight: 600; left: 1000px;">Up next</span>
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+
+
+    <!-- ---------------------------------Featured Today-------------------------------- -->
+
+    <h2
+        style="color: #ebc624; font-size: 32px; margin: 30px 0px 28px 120px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        Featured today</h2>
+    <div class="slideshow-today">
+        <div class="today-card">
+            <img src="img/today-card-1.jpg" alt="next" style="width:394; height: 221px;">
+            <div class="today-container">
+                <span style="font-size: 16px; color: #ffffff; font-weight: 500;">Most Popular Indian Movies of 2023 (So
+                    Far)</span><br><br>
+                <span style="font-size: 16px; color: #5799EF; font-weight: 500;">See the list</span>
+            </div>
+        </div>
+        <div class="today-card">
+            <img src="img/today-card-2.jpg" alt="next" style="width:394; height: 221px;">
+            <div class="today-container">
+                <span style="font-size: 16px; color: #ffffff; font-weight: 500;">Most Popular Indian Web Series of 2023
+                    (So Far)</span><br><br>
+                <span style="font-size: 16px; color: #5799EF; font-weight: 500;">See the list</span>
+            </div>
+        </div>
+        <div class="today-card">
+            <img src="img/today-card-3.jpg" alt="next" style="width:394; height: 221px;">
+            <div class="today-container">
+                <span style="font-size: 16px; color: #ffffff; font-weight: 500;">The Weekend's Must-See Movies and
+                    Series</span><br><br>
+                <span style="font-size: 16px; color: #5799EF; font-weight: 500;">See our picks</span>
+            </div>
+        </div>
+    </div>
+
+    <button class="prev2" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next2" onclick="changeSlide(1)">&#10095;</button>
+
+    <br><br><br><br>
+
+    <span style="font-size: 24px; margin: 0px 0px 0px 130px; color: #ffffff; font-weight: 700;">Recently
+        viewed</span><br><br><br>
+    <span style="font-size: 16px; margin: 0px 0px 0px 130px; color: #ffffff; font-weight: 400;">You have no recently
+        viewed pages</span>
+
+
+    <br><br><br><br><br><br>
+
+
+    <div class="footer" style="text-align: center;">
+        <input type="button" value="Sign in for more access"
+            style="font-size: 16px; font-weight: 500; padding: 4px 26px; color: #000000; background-color: #ebc624;">
+        <br><br>
+        <div style="text-align: center;">
+            <a href="#"><i class="fa-brands fa-tiktok fa-xs" style="color: #ffffff;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+        </div>
+        <br><br>
+        <div>
+            <ul class="foot-l1">
+                <li><a href="#">Get the IMDb App&nbsp;<img src="img/icon/link-icon.png" width="10px" height="10px"></a>
+                </li>
+                <li><a href="#">Help&nbsp;<img src="img/icon/link-icon.png" width="10px" height="10px" alt=""></a></li>
+                <li><a href="#">Site Index&nbsp;<img src="img/icon/link-icon.png" width="10px" height="10px"></a></li>
+                <!-- <li><a href="#">IMDb Pro&nbsp;<img src="img/icon/link-icon.png" width="10px" height="10px"></a></li> -->
+                <li><a href="#">Box Office Mojo&nbsp;<img src="img/icon/link-icon.png" width="10px" height="10px"></a>
+                </li>
+                <li><a href="#">IMDb Developer&nbsp;<img src="img/icon/link-icon.png" width="10px" height="10px"></li>
+            </ul><br>
+            <ul class="foot-l1">
+                <li><a href="#">Press Room&nbsp;<img src="img/icon/link-icon.png" width="10px" height="10px"></a></li>
+                <li><a href="#">Advertising&nbsp;<img src="img/icon/link-icon.png" width="10px" height="10px"></a></li>
+                <li><a href="#">Jobs&nbsp;<img src="img/icon/link-icon.png" width="10px" height="10px"></a></li>
+                <li><a href="#">Conditions of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Your Ads Privacy Choices</a></li>
+            </ul>
+        </div>
+    </div><br><br>
+    <span style="color: #ffffff; margin-left: 670px; font-weight: 600;">an amazon company</span><br><br>
+    <span style="color: #ffffff; margin-left: 668px; font-size: 12px; font-weight: 200;">© 1990-2023 by IMDb.com, Inc.</span>
+</body>
+
+</html>
